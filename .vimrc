@@ -18,9 +18,6 @@ nmap \M :set noexpandtab tabstop=8 softtabstop=4 shiftwidth=4<CR>
 nmap \m :set expandtab tabstop=2 shiftwidth=2 softtabstop=2<CR>
 set expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
-"Apparently NERDTree is cool
-nmap \e :NERDTreeToggle<CR>
-
 set autoindent
 set smartindent
 set nocompatible
