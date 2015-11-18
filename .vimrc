@@ -1,11 +1,5 @@
 call pathogen#infect()
 
-"Fold Settings
-"set foldmethod=indent
-"set foldnestmax=10      
-"set nofoldenable        
-"set foldlevel=1         
-
 nmap \w :setlocal wrap!<CR>:setlocal wrap?<CR>
 nmap \l :setlocal number!<CR>
 
@@ -21,8 +15,8 @@ set expandtab tabstop=2 shiftwidth=2 softtabstop=2
 set autoindent
 set smartindent
 set nocompatible
+set t_Co=256
 colorscheme colorful256
-
 
 autocmd InsertEnter * syn clear EOLWS | syn match EOLWS excludenl /\s\+\%#\@!$/
 autocmd InsertLeave * syn clear EOLWS | syn match EOLWS excludenl /\s\+$/
