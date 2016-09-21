@@ -1,5 +1,8 @@
 call pathogen#infect()
 
+
+let g:jsx_ext_required = 0
+
 nmap \w :setlocal wrap!<CR>:setlocal wrap?<CR>
 nmap \l :setlocal number!<CR>
 
